@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Антиквар</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            width: 200px;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            border-bottom: 1px solid #ccc;
+            max-width: 100%;
+        }
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+        .product-info h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #007acc;
+        }
+        .product-info p {
+            margin: 10px 0;
+            color: #666;
+        }
+        .product-info .price {
+            color: #007acc;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Антикварный аукцион</h1>
+    <nav>
+        <a href="#catalog">Каталог</a>
+        <a href="3.html">Связь с продавцом</a>
+    </nav>
+</header>
+
+<div class="container" id="catalog">
+    <div class="product-card">
+        <a href="product1.html">
+            <img src="ваза.jpg" height="230" alt="Product 1">
+            <div class="product-info">
+                <h3>Антикварная ваза</h3>
+                <p>Редкая китайская ваза 18 века</p>
+                <p class="price">1000 руб.</p>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="product2.html">
+            <img src="античность.jpg" height="270" width="300"  border = 0 alt="Product 2">
+            <div class="product-info">
+                <h3>Античная картина</h3>
+                <p>Античная картина о разграблении Рима </p>
+                <p class="price">2000 руб.</p>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="product3.html">
+            <img src="картина.jpg" alt="Product 3">
+            <div class="product-info">
+                <h3>Картина</h3>
+                <p>Портрет эпохи Ренессанса</p>
+                <p class="price">3000 руб.</p>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="product4.html">
+            <img src="статуэтка.jpg" height="270" alt="Product 4">
+            <div class="product-info">
+                <h3>Статуэтка</h3>
+                <p>Греческая статуэтка богини</p>
+                <p class="price">4000 руб.</p>
+            </div>
+        </a>
+    </div>
+    <div class="product-card">
+        <a href="product5.html">
+            <img src="колонна.jpg" height="270" alt="Product 5">
+            <div class="product-info">
+                <h3>Древняя колонна</h3>
+                <p>Мраморная греческая колонна</p>
+                <p class="price">5000 руб.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<footer>
+    <a href="#">На главную</a>
+</footer>
+
+</body>
+</html>
